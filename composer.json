@@ -1,0 +1,19 @@
+{
+    "name": "eduar/tiendap",
+    "autoload": {
+        "psr-4": {
+            "Eduar\\Tiendap\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EduarMacias",
+            "email": "macias-eduardo1704@unesum.edu.ec"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.17",
+        "facebook/graph-sdk": "^5.1",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
