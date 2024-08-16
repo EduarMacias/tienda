@@ -1,0 +1,46 @@
+/* tail.css */
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css';
+
+body {
+    background-color: #f8fafc;
+}
+
+h2 {
+    @apply text-3xl font-bold mb-4 text-blue-600;
+}
+
+.btn-primary {
+    @apply bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700;
+}
+
+.btn-warning {
+    @apply bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600;
+}
+
+.btn-danger {
+    @apply bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700;
+}
+
+.btn-info {
+    @apply bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600;
+}
+
+.table-hover {
+    @apply min-w-full bg-white divide-y divide-gray-200;
+}
+
+.table-hover thead {
+    @apply bg-gray-50;
+}
+
+.table-hover tbody tr:hover {
+    @apply bg-gray-100;
+}
+
+.nav-link.active {
+    @apply text-blue-700 font-semibold;
+}
+
+.nav-link {
+    @apply text-gray-600 hover:text-blue-600;
+}

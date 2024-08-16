@@ -1,0 +1,127 @@
+/* Archivo: styles.css */
+
+/* Estilos generales */
+body {
+    background-image: url('../img/fondoadmin.jpg'); /* Ruta local de la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+}
+
+/* Estilos de la barra lateral */
+.sidebar {
+    background-color: rgba(52, 58, 64, 0.8) !important; /* Color de fondo de la barra lateral con transparencia */
+    color: white !important;
+    height: 100vh; /* Asegura que la barra lateral ocupe toda la altura de la ventana */
+}
+
+.sidebar-sticky {
+    background-color: rgba(52, 58, 64, 0.8) !important; /* Asegura que el contenedor interior también sea transparente */
+}
+
+.sidebar .nav-link {
+    color: #ffffff !important; /* Color de los enlaces */
+    font-size: 16px !important; /* Tamaño de fuente de los enlaces */
+}
+
+.sidebar .nav-link.active {
+    background-color: rgba(13, 110, 253, 0.8) !important; /* Color del enlace activo con transparencia */
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(73, 80, 87, 0.8) !important; /* Color del enlace al pasar el ratón con transparencia */
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px !important;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    border: 1px solid rgba(222, 226, 230, 0.8) !important; /* Borde de las tarjetas con transparencia */
+    border-radius: 0.5rem !important;
+    width: 100% !important; /* Ancho de las tarjetas */
+    max-width: 1000px !important; /* Ancho máximo de las tarjetas aumentado */
+    margin: 0 auto 20px auto !important; /* Centrar y añadir margen inferior */
+    background-color: rgba(255, 255, 255, 0.5) !important; /* Fondo de las tarjetas con transparencia */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Sombra para un efecto de elevación */
+}
+
+.card-header {
+    background-color: rgba(13, 110, 253, 0.5) !important; /* Color de fondo del encabezado de las tarjetas con transparencia */
+    color: white !important; /* Color de texto del encabezado de las tarjetas */
+    font-size: 20px !important; /* Tamaño de fuente del encabezado */
+    padding: 10px 15px !important; /* Relleno del encabezado */
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.5) !important; /* Color de fondo del cuerpo de las tarjetas con transparencia */
+    font-size: 16px !important; /* Tamaño de fuente del cuerpo */
+    padding: 15px !important; /* Relleno del cuerpo */
+}
+
+/* Estilos de los formularios */
+.form-group label {
+    font-size: 14px !important; /* Tamaño de fuente de las etiquetas */
+    color: #495057 !important; /* Color de las etiquetas */
+}
+
+.form-control {
+    font-size: 14px !important; /* Tamaño de fuente de los campos de entrada */
+    border: 1px solid #ced4da !important; /* Borde de los campos de entrada */
+    border-radius: 0.25rem !important;
+    background-color: rgba(255, 255, 255, 0.5) !important; /* Fondo de los campos de entrada con transparencia */
+}
+
+/* Estilos de los botones */
+.btn-primary {
+    background-color: rgba(13, 110, 253, 0.8) !important; /* Color de fondo de los botones */
+    border-color: rgba(13, 110, 253, 0.8) !important; /* Color del borde de los botones */
+}
+
+.btn-primary:hover {
+    background-color: rgba(10, 88, 202, 0.8) !important; /* Color de fondo de los botones al pasar el ratón */
+    border-color: rgba(10, 88, 202, 0.8) !important; /* Color del borde de los botones al pasar el ratón */
+}
+
+.btn-danger {
+    background-color: rgba(220, 53, 69, 0.8) !important; /* Color de fondo de los botones de peligro */
+    border-color: rgba(220, 53, 69, 0.8) !important; /* Color del borde de los botones de peligro */
+}
+
+.btn-danger:hover {
+    background-color: rgba(200, 35, 51, 0.8) !important; /* Color de fondo de los botones de peligro al pasar el ratón */
+    border-color: rgba(189, 33, 48, 0.8) !important; /* Color del borde de los botones de peligro al pasar el ratón */
+}
+
+.btn-warning {
+    background-color: rgba(255, 193, 7, 0.8) !important; /* Color de fondo de los botones de advertencia */
+    border-color: rgba(255, 193, 7, 0.8) !important; /* Color del borde de los botones de advertencia */
+}
+
+.btn-warning:hover {
+    background-color: rgba(224, 168, 0, 0.8) !important; /* Color de fondo de los botones de advertencia al pasar el ratón */
+    border-color: rgba(211, 158, 0, 0.8) !important; /* Color del borde de los botones de advertencia al pasar el ratón */
+}
+
+.btn-info {
+    background-color: rgba(23, 162, 184, 0.8) !important; /* Color de fondo de los botones de información */
+    border-color: rgba(23, 162, 184, 0.8) !important; /* Color del borde de los botones de información */
+}
+
+.btn-info:hover {
+    background-color: rgba(19, 132, 150, 0.8) !important; /* Color de fondo de los botones de información al pasar el ratón */
+    border-color: rgba(17, 122, 139, 0.8) !important; /* Color del borde de los botones de información al pasar el ratón */
+}
+
+/* Estilos de las tablas */
+.table-hover tbody tr:hover {
+    background-color: rgba(241, 241, 241, 0.8) !important; /* Color de fondo de las filas al pasar el ratón */
+}
+
+.table thead th {
+    background-color: rgba(13, 110, 253, 0.8) !important; /* Color de fondo del encabezado de las tablas */
+    color: white !important; /* Color de texto del encabezado de las tablas */
+    font-size: 16px !important; /* Tamaño de fuente del encabezado de las tablas */
+}
